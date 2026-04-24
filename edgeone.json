@@ -8,7 +8,7 @@
     },
     {
       "name": "daily-cleanup",
-      "cron": "40 7 * * *",
+      "cron": "50 15 * * *",
       "path": "/api/cron/cleanup",
       "method": "POST",
       "payload": {
